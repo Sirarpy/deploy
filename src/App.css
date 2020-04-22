@@ -1,0 +1,72 @@
+#root {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+	height: 100vh;
+	background: url("./back.jpg") center center;
+}
+.terminal {
+	min-width: 50%;
+    min-height: 22em;
+    background: #300a24;
+	border-radius: 5px;
+	margin: auto;
+}
+.term_top {
+	width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10%;
+    background-image: linear-gradient(#55534b,#4e4c45,#4e4c4587);
+    color: white;
+	font-family: 'VT323', courier;
+	padding: 5px 0 5px 0;
+}
+.term_body{
+  display: flex;
+  flex-direction: column;
+}
+.controls {
+	width: 100px;
+	display: flex;
+	justify-content: space-around;
+	margin-left: 1%;
+}
+.close, .min, .max {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: gray;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+}
+.akk {
+	margin-right: 50%;
+}
+/*typing*/
+.Typewriter .Typewriter__wrapper {
+	color: #32fe23;
+	font-family: 'VT323', courier;
+}
+.Typewriter__cursor {
+	color: #32fe23;
+    font-weight: 900;
+}
+
+@media only screen and (max-width: 768px) {
+	.abt {
+		padding: 10px 0  10px 0 ;
+	}
+	.about_wrapper {
+		min-height: 300px;
+		display: flex;
+		flex-direction: column;
+	}
+	.about_left,.about_right {
+		width: 100%;
+	}
+}
